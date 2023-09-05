@@ -1,0 +1,46 @@
+body {
+    margin-left: 20px;
+}
+
+.card {
+    width: 500px;
+    background-color: lightcyan;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.innerCard {
+    padding: 10px;
+}
+
+.header {
+color: whitesmoke;
+text-align: center;
+font-size: x-large;
+padding: 1% 0;
+border: 1px solid lightskyblue;
+user-select: none;
+}
+
+.blue {
+    background-color: lightskyblue;
+}
+
+.profilBilde {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 400px;
+    position: relative; right: 5%;
+    }
